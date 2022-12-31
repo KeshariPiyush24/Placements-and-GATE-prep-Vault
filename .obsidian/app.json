@@ -5,7 +5,9 @@
     "Trie",
     "ExpressJS",
     "PLI",
-    "deallocation"
+    "deallocation",
+    "interprocess",
+    "MINIX"
   ],
   "livePreview": false,
   "spellcheck": true,
