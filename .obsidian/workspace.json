@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Core CS subjects/OS.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               }
             }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 268.5086555480957
   },
   "right": {
     "id": "6e329cfb2c9ec76e",
@@ -85,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Core CS subjects/OS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Core CS subjects/OS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Core CS subjects/OS.md"
+              }
             }
           },
           {
@@ -151,17 +155,17 @@
       "obsidian-gallery:Gallery": false
     }
   },
-  "active": "4065fe34b8e3fb5f",
+  "active": "4fb00d37a0e7fd67",
   "lastOpenFiles": [
-    "Core CS subjects/OS.md",
-    "Core CS subjects/DBMS.md",
+    "Assets/Thrashing.webp",
+    "Assets/SingleThreadVSMultiThread.png",
+    "Assets/RAID.webp",
+    "Assets/ProcessVSThread.png",
+    "Assets/Deadlock.png",
+    "README.md",
     "Roadmap.md",
-    "Untitled.canvas",
-    "2022-12-31.md",
-    "Roadmap for the next 6 months.canvas",
-    "DSA/Questions List.md",
-    "Core CS subjects/OS/OS Notes.md",
-    "Full Stack/Untitled.canvas",
-    "Untitled.md"
+    "Core CS subjects/OS.md",
+    "Untitled.md",
+    "Core CS subjects/DBMS.md"
   ]
 }

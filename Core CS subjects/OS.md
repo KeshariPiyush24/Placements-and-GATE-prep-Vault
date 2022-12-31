@@ -33,7 +33,9 @@ There are several types of kernels that can be used in an operating system:
 
 1. **Monolithic kernel**: A monolithic kernel is a single, large block of code that contains all the core functions of the operating system. It runs in kernel mode and has direct access to the hardware resources of the computer. Examples of operating systems with monolithic kernels include Linux and BSD.
 2. **Microkernel**: A microkernel is a small kernel that contains only the basic functions needed to manage the hardware resources of the computer. Other parts of the operating system, such as device drivers and file systems, run as separate programs in user mode and communicate with the kernel through interprocess communication (IPC) mechanisms. Examples of operating systems with microkernels include QNX and MINIX.
-3. **Hybrid kernel**: A hybrid kernel is a combination of a monolithic kernel and a microkernel. It includes some of the core functions of the operating system in the kernel, but also allows other parts of the system to run as separate programs in user mode. Examples of operating systems with hybrid kernels include Windows NT and macOS.
+3. **Hybrid kernel**: A hybrid kernel is a combination of a monolithic kernel and a microkernel. It includes some core functions of the operating system in the kernel, but also allows other parts of the system to run as separate programs in user mode. Examples of operating systems with hybrid kernels include Windows NT and macOS.
+
+![](Assets/1200px-Kernel_Layout.svg.png)
 
 The choice of kernel design depends on the specific requirements and goals of the operating system, as well as the hardware resources and constraints of the system it will be running on. Some operating systems may use a custom kernel that is tailored to their specific needs and design constraints, while others may use a standard kernel with additional modifications or extensions.
 
@@ -43,11 +45,16 @@ There are several types of interfaces that can be used to interact with an opera
 
 1. **Graphical user interface (GUI)**: A GUI is a type of interface that uses visual elements such as windows, icons, and menus to allow users to interact with the system and perform tasks. Examples of operating systems with GUIs include Windows, macOS, and Linux.
 2. **Command-line interface (CLI)**: A CLI is a type of interface that allows users to enter commands and execute them by typing them into a command prompt or terminal window. Examples of operating systems with CLIs include Unix-like systems such as Linux and macOS, as well as Microsoft Windows.
-3. **Procedure-language interface (PLI)**: A PLI is a type of interface that allows users to write and execute procedures or scripts written in a programming language. Examples of PLIs include the Python interactive interpreter and the SQL command-line interface.
-4. **Application programming interface (API)**: An API is a set of protocols and tools that allows different software systems to communicate with each other and exchange data. Examples of APIs include the Facebook API, which allows developers to access and use the functionality of the Facebook platform, and the Google Maps API, which allows developers to include maps and location-based functionality in their applications.
-5. **Web interface**: A web interface is a type of interface that allows users to interact with a system or application through a web browser. Examples of web interfaces include online banking sites, email services, and social media platforms.
-6. **Mobile interface**: A mobile interface is a type of interface that is designed for use on a mobile device, such as a smartphone or tablet. Mobile interfaces often use touch gestures and other input methods that are optimized for use on a small screen.
-7. **Voice interface**: A voice interface is a type of interface that allows users to interact with a system or application using voice commands. Voice interfaces are often used with virtual assistants, such as Amazon's
+3. **Procedure-language interface (PLI)**: A Procedure Language Interface (PLI) is a programming interface that allows a programmer to write code in a high-level language, such as C or FORTRAN, that can be called by a program written in a different language, such as assembly language or a hardware description language. Examples of PLIs include the Python interactive interpreter, the SQL command-line interface, and other interfaces that allow users to write and execute procedures or scripts written in a programming language.
+4. **System Call Interface (SCI)**: SCI (System Call Interface) is a set of functions and mechanisms provided by an operating system (OS) that allows programs to request services from the OS. These functions are typically implemented as part of the OS kernel, and are designed to provide a standard way for programs to access resources and perform tasks that are normally reserved for the OS. Examples of services that might be provided through SCI include accessing files, allocating memory, creating processes, and communicating with other programs.
+5. **Application programming interface (API)**: An API is a set of protocols and tools that allows different software systems to communicate with each other and exchange data. Examples of APIs include the Facebook API, which allows developers to access and use the functionality of the Facebook platform, and the Google Maps API, which allows developers to include maps and location-based functionality in their applications.
+6. **Web interface**: A web interface is a type of interface that allows users to interact with a system or application through a web browser. Examples of web interfaces include online banking sites, email services, and social media platforms.
+7. **Mobile interface**: A mobile interface is a type of interface that is designed for use on a mobile device, such as a smartphone or tablet. Mobile interfaces often use touch gestures and other input methods that are optimized for use on a small screen.
+8. **Voice interface**: A voice interface is a type of interface that allows users to interact with a system or application using voice commands. Voice interfaces are often used with virtual assistants, such as Amazon's
+
+# Differentiate between SCI, API, CLI and PLI
+
+One key difference between SCI and PLI is the level at which they operate. SCI is a set of functions provided by the OS that allow programs to request services from the OS, while PLI is a programming interface that allows programmers to write code in a high-level language that can be called by programs written in other languages.
 
 # Do PLI have their own interpreter and compilers?
 
@@ -171,3 +178,15 @@ There are several necessary conditions that must be present for a deadlock to oc
 
 ![](../Assets/Deadlock.png)
 
+# What are the various approaches to preventing or avoiding deadlocks, and how do they differ from each other?
+
+
+Main approaches to preventing or avoiding deadlocks, and how they differ from each other:
+
+**Deadlock prevention**: This approach involves adding additional constraints to the system to prevent the occurrence of deadlocks. One common method is to require processes to request all the resources they will need before they start executing, which can help to prevent the hold and wait condition.
+
+**Deadlock avoidance**: This approach involves dynamically adjusting the allocation of resources to processes in order to avoid the possibility of deadlocks. One common method is the "banker's algorithm," which uses a priority system to determine which processes should be allocated resources and when.
+
+**Deadlock detection**: This approach involves periodically checking for the presence of deadlocks and taking action to resolve them if they are detected. This can involve pre-empting one of the processes involved in the deadlock and rolling back its actions to release the resource it is holding.
+
+In general, deadlock prevention and deadlock avoidance are proactive approaches that aim to prevent deadlocks from occurring in the first place, while deadlock detection is a reactive approach that involves identifying and resolving deadlocks after they have occurred.
