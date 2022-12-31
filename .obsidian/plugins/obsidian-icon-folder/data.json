@@ -1,0 +1,26 @@
+{
+  "settings": {
+    "migrated": true,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "RiComputerFill",
+      "RiCodeBoxFill",
+      "RiBook3Fill",
+      "RiImageFill"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    }
+  },
+  "Assets": "RiImageFill",
+  "Core CS subjects": "RiBook3Fill",
+  "DSA": "RiCodeBoxFill",
+  "Full Stack": "RiComputerFill"
+}

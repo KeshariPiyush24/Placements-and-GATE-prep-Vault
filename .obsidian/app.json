@@ -1,0 +1,15 @@
+{
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "spellcheckDictionary": [
+    "Trie",
+    "ExpressJS",
+    "PLI",
+    "deallocation"
+  ],
+  "livePreview": false,
+  "spellcheck": true,
+  "strictLineBreaks": true,
+  "defaultViewMode": "preview",
+  "readableLineLength": false
+}
