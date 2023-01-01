@@ -190,3 +190,48 @@ Main approaches to preventing or avoiding deadlocks, and how they differ from ea
 **Deadlock detection**: This approach involves periodically checking for the presence of deadlocks and taking action to resolve them if they are detected. This can involve pre-empting one of the processes involved in the deadlock and rolling back its actions to release the resource it is holding.
 
 In general, deadlock prevention and deadlock avoidance are proactive approaches that aim to prevent deadlocks from occurring in the first place, while deadlock detection is a reactive approach that involves identifying and resolving deadlocks after they have occurred.
+
+# What is fragmentation of memory?
+
+Memory fragmentation is a phenomenon that occurs when the available free memory in a computer's operating system is split into small chunks that are scattered throughout the memory. These small chunks of free memory are too small to be used efficiently and can lead to decreased system performance. There are two main types of memory fragmentation: external fragmentation and internal fragmentation.
+
+# Differentiate between two types of Fragmentation
+
+![](Assets/Screenshot%202023-01-01%20at%2010.54.01%20PM.png)
+
+# What is SPOOLING?
+
+Spooling is a technique used by operating systems to temporarily store data in a buffer or queue while it is being transmitted or processed. The term "spool" is an acronym for "Simultaneous Peripheral Operations On-Line". It is used to increase the efficiency of input/output (I/O) operations by allowing the data to be transmitted or processed in the background while the computer is able to perform other tasks.
+
+There are several types of spooling that can be used in an operating system, including:
+
+- **Printer spooling**: In printer spooling, data to be printed is temporarily stored in a buffer or queue and then transmitted to the printer as it becomes available. This allows the computer to continue working on other tasks while the printer is printing the data.
+- **Disk spooling**: In disk spooling, data to be written to a disk is temporarily stored in a buffer or queue and then written to the disk in a batch, rather than writing each piece of data individually. This can increase the efficiency of disk I/O operations by reducing the number of read/write head movements.
+- **Network spooling**: In network spooling, data to be transmitted over a network is temporarily stored in a buffer or queue and then transmitted as it becomes available. This allows the computer to continue working on other tasks while the data is being transmitted.  
+
+Spooling is an important technique used in operating systems to improve the efficiency of I/O operations and to allow the computer to perform multiple tasks simultaneously.
+
+# What are semaphores and what are its types?
+
+A **semaphore** is a synchronization object that is used to control access to a shared resource in a parallel programming environment. It is a value that is used to indicate whether a resource is available or in use, and it can be used to allow or block access to the resource. Semaphores can be either binary (0 or 1) or can have a value greater than 1, depending on the implementation.
+
+There are several **types of semaphores**, including:
+
+- **Binary semaphores**: A binary semaphore is a type of semaphore that has a value of either 0 or 1. It is used to indicate whether a resource is available or in use.  
+- **Counting semaphores**: A counting semaphore is a type of semaphore that has a value greater than 1. It is used to keep track of the number of available resources or to allow a certain number of threads or processes to access a resource simultaneously.
+- **Mutex semaphores**: A mutex semaphore is a type of semaphore that is used to implement mutual exclusion. It is similar to a mutex in that it allows only one thread or process to access a resource at a time, but it is implemented as a semaphore rather than a separate synchronization object.
+- **Reader-writer semaphores**: A reader-writer semaphore is a type of semaphore that is used to synchronize access to a shared resource by multiple threads or processes. It allows multiple threads or processes to read the resource simultaneously, but only allows one thread or process to write to the resource at a time.
+
+# What are mutexes and what are its types?
+
+A mutex (short for "mutual exclusion") is a synchronization object that is used to control access to a shared resource in a parallel programming environment. It is used to ensure that only one thread or process can access the resource at a time, in order to prevent conflicts or race conditions.
+
+There are several types of mutexes, including:
+
+- **Spinlock mutexes**: A spinlock mutex is a type of mutex that uses busy waiting (also known as "spinning") to acquire a lock on a resource. When a thread or process tries to acquire a lock on a resource that is already locked, it will repeatedly check the lock status until it becomes available, rather than going to sleep or blocking.
+- **Sleep mutexes**: A sleep mutex is a type of mutex that puts a thread or process to sleep when it tries to acquire a lock on a resource that is already locked. The thread or process will be awoken when the lock becomes available.
+- **Recursive mutexes**: A recursive mutex is a type of mutex that allows a thread or process to acquire a lock on a resource multiple times. This is useful when a thread or process needs to acquire a lock on a resource multiple times within a nested set of function calls.
+- **Priority-inheritance mutexes**: A priority-inheritance mutex is a type of mutex that increases the priority of a thread or process that holds a lock on a resource. This is used to prevent priority inversion, which can occur when a high-priority thread or process is blocked by a low-priority thread or process that holds a lock on a resource.
+
+
+

@@ -40,21 +40,21 @@
     },
     "DSA/Algorithms/Number Theory.md": {
       "noteCount": 1,
-      "wordCount": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
+      "wordCount": 177,
+      "pageCount": 0.59,
+      "characterCount": 967,
+      "nonWhitespaceCharacterCount": 783,
       "createdDate": 1672590429829,
-      "modifiedDate": 1672590429829
+      "modifiedDate": 1672591456647
     },
     "Core CS subjects/OS.md": {
       "noteCount": 1,
-      "wordCount": 3004,
-      "pageCount": 10.013333333333334,
-      "characterCount": 19042,
-      "nonWhitespaceCharacterCount": 15943,
+      "wordCount": 3079,
+      "pageCount": 10.263333333333334,
+      "characterCount": 19600,
+      "nonWhitespaceCharacterCount": 16420,
       "createdDate": 1672420503987,
-      "modifiedDate": 1672489012575
+      "modifiedDate": 1672593599461
     },
     "Core CS subjects/DBMS.md": {
       "noteCount": 1,
