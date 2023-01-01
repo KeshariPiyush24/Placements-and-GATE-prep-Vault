@@ -7,7 +7,9 @@
     "PLI",
     "deallocation",
     "interprocess",
-    "MINIX"
+    "MINIX",
+    "sqrt",
+    "sqrt"
   ],
   "livePreview": false,
   "spellcheck": true,

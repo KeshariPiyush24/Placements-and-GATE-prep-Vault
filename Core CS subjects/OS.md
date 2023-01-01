@@ -185,7 +185,7 @@ Main approaches to preventing or avoiding deadlocks, and how they differ from ea
 
 **Deadlock prevention**: This approach involves adding additional constraints to the system to prevent the occurrence of deadlocks. One common method is to require processes to request all the resources they will need before they start executing, which can help to prevent the hold and wait condition.
 
-**Deadlock avoidance**: This approach involves dynamically adjusting the allocation of resources to processes in order to avoid the possibility of deadlocks. One common method is the "banker's algorithm," which uses a priority system to determine which processes should be allocated resources and when.
+**Deadlock avoidance**: This approach involves dynamically adjusting the allocation of resources to processes in order to avoid the possibility of deadlocks. One common method is the “banker's algorithm” which uses a priority system to determine which processes should be allocated resources and when.
 
 **Deadlock detection**: This approach involves periodically checking for the presence of deadlocks and taking action to resolve them if they are detected. This can involve pre-empting one of the processes involved in the deadlock and rolling back its actions to release the resource it is holding.
 

@@ -18,6 +18,18 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "7eab11d9243856fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DSA/Algorithms/Number Theory.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
         ]
       }
@@ -157,6 +169,8 @@
   },
   "active": "4fb00d37a0e7fd67",
   "lastOpenFiles": [
+    "DSA/Algorithms/Number Theory.md",
+    "Core CS subjects/OS.md",
     "Assets/Thrashing.webp",
     "Assets/SingleThreadVSMultiThread.png",
     "Assets/RAID.webp",
@@ -164,8 +178,6 @@
     "Assets/Deadlock.png",
     "README.md",
     "Roadmap.md",
-    "Core CS subjects/OS.md",
-    "Untitled.md",
-    "Core CS subjects/DBMS.md"
+    "Untitled.md"
   ]
 }
