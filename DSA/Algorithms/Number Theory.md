@@ -17,3 +17,5 @@ A good question to demonstrate this -> https://leetcode.com/problems/distinct-pr
 # four-by-four pattern of prime number
 
 All the prime numbers except 2 will of the form `4n - 1` or `4n + 1` (n is a natural number).
+
+Because all the prime numbers except 2 are odd and all the odd numbers can be represented in the form of `4n - 1` and `4n + 1`.

@@ -13,12 +13,12 @@
   "cachedCounts": {
     "Roadmap.md": {
       "noteCount": 1,
-      "wordCount": 296,
-      "pageCount": 0.9866666666666667,
-      "characterCount": 1197,
-      "nonWhitespaceCharacterCount": 828,
+      "wordCount": 300,
+      "pageCount": 1,
+      "characterCount": 1205,
+      "nonWhitespaceCharacterCount": 831,
       "createdDate": 1672428963656,
-      "modifiedDate": 1672482281111
+      "modifiedDate": 1672628505226
     },
     "README.md": {
       "noteCount": 1,
@@ -49,12 +49,12 @@
     },
     "Core CS subjects/OS.md": {
       "noteCount": 1,
-      "wordCount": 4722,
-      "pageCount": 15.74,
-      "characterCount": 29529,
-      "nonWhitespaceCharacterCount": 24588,
+      "wordCount": 4565,
+      "pageCount": 15.216666666666667,
+      "characterCount": 28286,
+      "nonWhitespaceCharacterCount": 23577,
       "createdDate": 1672420503987,
-      "modifiedDate": 1672597764899
+      "modifiedDate": 1672598397263
     },
     "Core CS subjects/DBMS.md": {
       "noteCount": 1,

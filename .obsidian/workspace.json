@@ -4,23 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "13774095e9ca45e1",
+        "id": "5d95de4c5b216870",
         "type": "tabs",
         "children": [
           {
-            "id": "4fb00d37a0e7fd67",
+            "id": "ca83103184befbdb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Roadmap.md",
-                "mode": "source",
+                "file": "Core CS subjects/OS.md",
+                "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "7eab11d9243856fa",
+            "id": "d2387f5555fbe616",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232.5086555480957
+    "width": 310.5086555480957
   },
   "right": {
     "id": "6e329cfb2c9ec76e",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Roadmap.md",
+                "file": "DSA/Algorithms/Number Theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Roadmap.md",
+                "file": "DSA/Algorithms/Number Theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Roadmap.md"
+                "file": "DSA/Algorithms/Number Theory.md"
               }
             }
           },
@@ -167,17 +168,17 @@
       "obsidian-gallery:Gallery": false
     }
   },
-  "active": "4fb00d37a0e7fd67",
+  "active": "d2387f5555fbe616",
   "lastOpenFiles": [
     "Core CS subjects/OS.md",
+    "DSA/Algorithms/Number Theory.md",
+    "Roadmap.md",
     "Assets/Screenshot 2023-01-01 at 11.59.30 PM.png",
     "Assets/Screenshot 2023-01-01 at 10.54.01 PM.png",
-    "DSA/Algorithms/Number Theory.md",
     "Assets/Thrashing.webp",
     "Assets/SingleThreadVSMultiThread.png",
     "Assets/RAID.webp",
     "Assets/ProcessVSThread.png",
-    "Assets/Deadlock.png",
-    "README.md"
+    "Assets/Deadlock.png"
   ]
 }
