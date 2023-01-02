@@ -14,6 +14,18 @@
               "type": "markdown",
               "state": {
                 "file": "Core CS subjects/OS.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "41c77207807e524f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DSA/Data Structures/Array.md",
                 "mode": "preview",
                 "source": true
               }
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA/Algorithms/Number Theory.md",
+                "file": "DSA/Data Structures/Array.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DSA/Algorithms/Number Theory.md",
+                "file": "DSA/Data Structures/Array.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSA/Algorithms/Number Theory.md"
+                "file": "DSA/Data Structures/Array.md"
               }
             }
           },
@@ -168,7 +180,7 @@
       "obsidian-gallery:Gallery": false
     }
   },
-  "active": "d2387f5555fbe616",
+  "active": "41c77207807e524f",
   "lastOpenFiles": [
     "Core CS subjects/OS.md",
     "DSA/Algorithms/Number Theory.md",

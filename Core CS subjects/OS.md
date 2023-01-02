@@ -303,5 +303,36 @@ Here, are cons/drawback of Mutex
 
 Starvation occurs when a thread or process is unable to access a shared resource or complete its execution because it is continuously blocked or preempted, while priority inversion occurs when a high-priority thread is blocked by a lower-priority thread holding a shared resource.
 
-# Race condition vs convoy effect
+# What is convoy effect?
+
+Convoy Effect is phenomenon associated with the First Come First Serve (FCFS) algorithm, in which the whole Operating System slows down due to few slow processes.
+
+![](Assets/222-2.png)
+
+FCFS algorithm is non-preemptive in nature, that is, once CPU time has been allocated to a process, other processes can get CPU time only after the current process has finished. This property of FCFS scheduling leads to the situation called Convoy Effect.
+
+Suppose there is one CPU intensive (large burst time) process in the ready queue, and several other processes with relatively less burst times but are Input/Output (I/O) bound (Need I/O operations frequently).
+
+Steps are as following below:
+
+- The I/O bound processes are first allocated CPU time. As they are less CPU intensive, they quickly get executed and goto I/O queues.
+- Now, the CPU intensive process is allocated CPU time. As its burst time is high, it takes time to complete.
+- While the CPU intensive process is being executed, the I/O bound processes complete their I/O operations and are moved back to ready queue.
+- However, the I/O bound processes are made to wait as the CPU intensive process still hasn’t finished. **This leads to I/O devices being idle.**
+- When the CPU intensive process gets over, it is sent to the I/O queue so that it can access an I/O device.
+- Meanwhile, the I/O bound processes get their required CPU time and move back to I/O queue.
+- However, they are made to wait because the CPU intensive process is still accessing an I/O device. As a result, **the CPU is sitting idle now**.
+
+Hence in Convoy Effect, one slow process slows down the performance of the entire set of processes, and leads to wastage of CPU time and other devices.
+
+To avoid Convoy Effect, preemptive scheduling algorithms like Round Robin Scheduling can be used – as the smaller processes don’t have to wait much for CPU time – making their execution faster and leading to less resources sitting idle.
+
+# What is race condition?
+
+A race condition is a synchronization problem that can occur in a parallel programming environment when two or more threads or processes try to access a shared resource simultaneously, and the outcome of the program depends on the order in which the threads or processes access the resource. This can lead to unpredictable and inconsistent behavior, as the order in which the threads or processes access the resource may change from one execution to the next.
+
+
+
+
+
 

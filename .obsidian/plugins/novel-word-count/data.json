@@ -11,15 +11,6 @@
     "pageCountType": "ByWords"
   },
   "cachedCounts": {
-    "Roadmap.md": {
-      "noteCount": 1,
-      "wordCount": 300,
-      "pageCount": 1,
-      "characterCount": 1205,
-      "nonWhitespaceCharacterCount": 831,
-      "createdDate": 1672428963656,
-      "modifiedDate": 1672628505226
-    },
     "README.md": {
       "noteCount": 1,
       "wordCount": 23,
@@ -28,6 +19,15 @@
       "nonWhitespaceCharacterCount": 108,
       "createdDate": 1672481561679,
       "modifiedDate": 1672481561679
+    },
+    "Roadmap.md": {
+      "noteCount": 1,
+      "wordCount": 300,
+      "pageCount": 1,
+      "characterCount": 1205,
+      "nonWhitespaceCharacterCount": 831,
+      "createdDate": 1672428963656,
+      "modifiedDate": 1672628505226
     },
     "DSA/Questions List.md": {
       "noteCount": 1,
@@ -40,21 +40,30 @@
     },
     "DSA/Algorithms/Number Theory.md": {
       "noteCount": 1,
-      "wordCount": 177,
-      "pageCount": 0.59,
-      "characterCount": 967,
-      "nonWhitespaceCharacterCount": 783,
+      "wordCount": 205,
+      "pageCount": 0.6833333333333333,
+      "characterCount": 1096,
+      "nonWhitespaceCharacterCount": 883,
       "createdDate": 1672590429829,
-      "modifiedDate": 1672591456647
+      "modifiedDate": 1672633274645
+    },
+    "DSA/Data Structures/Array.md": {
+      "noteCount": 1,
+      "wordCount": 57,
+      "pageCount": 0.19,
+      "characterCount": 497,
+      "nonWhitespaceCharacterCount": 382,
+      "createdDate": 1672635627006,
+      "modifiedDate": 1672636749229
     },
     "Core CS subjects/OS.md": {
       "noteCount": 1,
-      "wordCount": 4565,
-      "pageCount": 15.216666666666667,
-      "characterCount": 28286,
-      "nonWhitespaceCharacterCount": 23577,
+      "wordCount": 4978,
+      "pageCount": 16.593333333333334,
+      "characterCount": 30730,
+      "nonWhitespaceCharacterCount": 25593,
       "createdDate": 1672420503987,
-      "modifiedDate": 1672598397263
+      "modifiedDate": 1672633941653
     },
     "Core CS subjects/DBMS.md": {
       "noteCount": 1,
