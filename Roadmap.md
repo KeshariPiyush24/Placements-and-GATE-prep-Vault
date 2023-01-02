@@ -12,7 +12,7 @@
 	- [ ] SQL
 	- [ ] MongoDB
 - [ ] Data Structures
-	- [ ] DS Intro
+	- [ ] DS Basics
 	- [ ] Arrays
 	- [ ] Linked List
 	- [ ] Disjoint Sets

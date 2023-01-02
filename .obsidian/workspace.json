@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Core CS subjects/OS.md",
+                "file": "Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "DSA/Data Structures/Array.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               }
             }
@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5086555480957,
-    "collapsed": true
+    "width": 310.5086555480957
   },
   "right": {
     "id": "6e329cfb2c9ec76e",
@@ -171,10 +170,10 @@
   },
   "active": "41c77207807e524f",
   "lastOpenFiles": [
-    "DSA/Algorithms/Number Theory.md",
-    "DSA/Data Structures/Array.md",
-    "Core CS subjects/OS.md",
     "Roadmap.md",
+    "Core CS subjects/OS.md",
+    "DSA/Data Structures/Array.md",
+    "DSA/Algorithms/Number Theory.md",
     "Assets/Screenshot 2023-01-01 at 11.59.30 PM.png",
     "Assets/Screenshot 2023-01-01 at 10.54.01 PM.png",
     "Assets/Thrashing.webp",

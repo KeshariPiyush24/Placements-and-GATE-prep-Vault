@@ -41,6 +41,9 @@
 	}
 ```
 
+
+# Medium
+
 ## [Find the "Kth" max and min element of an array](https://practice.geeksforgeeks.org/problems/kth-smallest-element/0)
 
 ```JAVA TI:"Solution" "FOLD"

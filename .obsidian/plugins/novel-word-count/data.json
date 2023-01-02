@@ -15,10 +15,10 @@
       "noteCount": 1,
       "wordCount": 300,
       "pageCount": 1,
-      "characterCount": 1205,
-      "nonWhitespaceCharacterCount": 831,
+      "characterCount": 1206,
+      "nonWhitespaceCharacterCount": 832,
       "createdDate": 1672428963656,
-      "modifiedDate": 1672628505226
+      "modifiedDate": 1672677185764
     },
     "README.md": {
       "noteCount": 1,
@@ -38,6 +38,15 @@
       "createdDate": 1672402939400,
       "modifiedDate": 1672429094785
     },
+    "DSA/Data Structures/Array.md": {
+      "noteCount": 1,
+      "wordCount": 306,
+      "pageCount": 1.02,
+      "characterCount": 2563,
+      "nonWhitespaceCharacterCount": 1687,
+      "createdDate": 1672635627006,
+      "modifiedDate": 1672677323754
+    },
     "DSA/Algorithms/Number Theory.md": {
       "noteCount": 1,
       "wordCount": 205,
@@ -46,15 +55,6 @@
       "nonWhitespaceCharacterCount": 883,
       "createdDate": 1672590429829,
       "modifiedDate": 1672633274645
-    },
-    "DSA/Data Structures/Array.md": {
-      "noteCount": 1,
-      "wordCount": 304,
-      "pageCount": 1.0133333333333334,
-      "characterCount": 2552,
-      "nonWhitespaceCharacterCount": 1680,
-      "createdDate": 1672635627006,
-      "modifiedDate": 1672637520151
     },
     "Core CS subjects/OS.md": {
       "noteCount": 1,
