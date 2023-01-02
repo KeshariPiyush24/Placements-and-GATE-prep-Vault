@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Core CS subjects/OS.md",
+                "file": "Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -81,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5086555480957
+    "width": 232.5086555480957
   },
   "right": {
     "id": "6e329cfb2c9ec76e",
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Core CS subjects/OS.md",
+                "file": "Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Core CS subjects/OS.md",
+                "file": "Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Core CS subjects/OS.md"
+                "file": "Roadmap.md"
               }
             }
           },
@@ -169,15 +169,15 @@
   },
   "active": "4fb00d37a0e7fd67",
   "lastOpenFiles": [
-    "DSA/Algorithms/Number Theory.md",
     "Core CS subjects/OS.md",
+    "Assets/Screenshot 2023-01-01 at 11.59.30 PM.png",
+    "Assets/Screenshot 2023-01-01 at 10.54.01 PM.png",
+    "DSA/Algorithms/Number Theory.md",
     "Assets/Thrashing.webp",
     "Assets/SingleThreadVSMultiThread.png",
     "Assets/RAID.webp",
     "Assets/ProcessVSThread.png",
     "Assets/Deadlock.png",
-    "README.md",
-    "Roadmap.md",
-    "Untitled.md"
+    "README.md"
   ]
 }

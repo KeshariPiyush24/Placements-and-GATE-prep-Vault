@@ -31,7 +31,7 @@
 	- [ ] String Algorithm
 	- [ ] Bit Manipulation
 	- [ ] Randomization
-	- [ ] Numerical Problems
+	- [ ] Number Theory
 	- [ ] Recursion
 	- [ ] Back Tracking
 	- [ ] Dynamic Programming
@@ -61,3 +61,4 @@
 - [ ] Misc
 	- [ ] Interview Puzzles
 	- [ ] Aptitude
+	- [ ] Regex

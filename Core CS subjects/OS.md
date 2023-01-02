@@ -233,5 +233,75 @@ There are several types of mutexes, including:
 - **Recursive mutexes**: A recursive mutex is a type of mutex that allows a thread or process to acquire a lock on a resource multiple times. This is useful when a thread or process needs to acquire a lock on a resource multiple times within a nested set of function calls.
 - **Priority-inheritance mutexes**: A priority-inheritance mutex is a type of mutex that increases the priority of a thread or process that holds a lock on a resource. This is used to prevent priority inversion, which can occur when a high-priority thread or process is blocked by a low-priority thread or process that holds a lock on a resource.
 
+# All about the diff between mutex and semaphores
 
+## Use of Semaphore
+
+In the case of a single buffer, we can separate the 4 KB buffer into four 1 KB buffers. Semaphore can be associated with these four buffers. This allows users and producers to work on different buffers at the same time.
+
+# Use of Mutex
+
+A mutex provides mutual exclusion, which can be either producer or consumer that can have the key (mutex) and proceed with their work. As long as producer fills buffer, the user needs to wait, and vice versa. In Mutex lock, all the time, only a single thread can work with the entire buffer.
+
+# Difference between Semaphore and Mutex
+
+![[Screenshot 2023-01-01 at 11.59.30 PM.png]]
+
+# Common Facts about Mutex and Semaphore
+
+Here, are few common facts about Mutex and Semaphore:
+
+- Only one task can acquire the mutex. So, there is ownership associated with a mutex, and only the owner can release the mutex.
+- The reasons for using mutex and semaphore are different maybe because of similarity in their implementation, a mutex would be referred to as binary semaphore.
+- One highly known misconception is that Mutexes and Semaphores are almost same, with the only difference being that a Mutex is capable of counting to 1, while Semaphores able to count from 0 to N.
+- There is always uncertainty between binary semaphore and mutex. You may hear that a mutex is a binary semaphore, which is not correct.
+
+# Advantages of Semaphore
+
+Here, are pros/benefits of using Semaphore:
+
+- It allows more than one thread to access the critical section
+- Semaphores are machine-independent.
+- Semaphores are implemented in the machine-independent code of the microkernel.
+- They do not allow multiple processes to enter the critical section.
+- As there is busy waiting in semaphore, there is never a wastage of process time and resources.
+- They are machine-independent, which should be run in the machine-independent code of the microkernel.
+- They allow flexible management of resources.
+
+# Advantages of Mutex
+
+Here, are important pros/benefits of Mutex
+
+- Mutexes are just simple locks obtained before entering its critical section and then releasing it.
+- Since only one thread is in its critical section at any given time, there are no race conditions, and data always remain consistent.
+
+# Disadvantage of Semaphores
+
+Here, are cons/drawback of semaphore
+
+- One of the biggest limitations of a semaphore is priority inversion[^2].
+- The operating system has to keep track of all calls to wait and signal semaphore.
+- Their use is never enforced, but it is by convention only.
+- In order to avoid deadlocks in semaphore, the Wait and Signal operations require to be executed in the correct order.
+- Semaphore programming is a complex method, so there are chances of not achieving mutual exclusion.
+- It is also not a practical method for large scale use as their use leads to loss of modularity.
+- Semaphore is more prone to programmer error.
+- It may cause deadlock or violation of mutual exclusion due to programmer error.
+
+# Disadvantages of Mutex
+
+Here, are cons/drawback of Mutex
+
+- If a thread obtains a lock and goes to sleep or it is preempted, then the other thread may not able to move forward. This may lead to starvation.
+- It can’t be locked or unlocked from a different context than the one that acquired it.
+- Only one thread should be allowed in the critical section at a time.
+- The normal implementation may lead to busy waiting state, which wastes CPU time.
+
+[^2]: Priority inversion can occur in a parallel programming environment when a high-priority thread is blocked by a lower-priority thread holding a shared resource.
+
+# Difference between starvation and priority-inversion
+
+Starvation occurs when a thread or process is unable to access a shared resource or complete its execution because it is continuously blocked or preempted, while priority inversion occurs when a high-priority thread is blocked by a lower-priority thread holding a shared resource.
+
+# Race condition vs convoy effect
 
