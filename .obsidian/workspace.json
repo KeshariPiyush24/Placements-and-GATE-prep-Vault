@@ -30,18 +30,6 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "d2387f5555fbe616",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DSA/Algorithms/Number Theory.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
           }
         ],
         "currentTab": 1
@@ -183,15 +171,15 @@
   },
   "active": "41c77207807e524f",
   "lastOpenFiles": [
-    "Core CS subjects/OS.md",
     "DSA/Algorithms/Number Theory.md",
+    "DSA/Data Structures/Array.md",
+    "Core CS subjects/OS.md",
     "Roadmap.md",
     "Assets/Screenshot 2023-01-01 at 11.59.30 PM.png",
     "Assets/Screenshot 2023-01-01 at 10.54.01 PM.png",
     "Assets/Thrashing.webp",
     "Assets/SingleThreadVSMultiThread.png",
     "Assets/RAID.webp",
-    "Assets/ProcessVSThread.png",
-    "Assets/Deadlock.png"
+    "Assets/ProcessVSThread.png"
   ]
 }
