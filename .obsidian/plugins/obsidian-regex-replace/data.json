@@ -1,6 +1,6 @@
 {
-  "findText": "*",
-  "replaceText": "**",
+  "findText": "\"FOLD\"",
+  "replaceText": "",
   "useRegEx": false,
   "selOnly": false,
   "caseInsensitive": false,

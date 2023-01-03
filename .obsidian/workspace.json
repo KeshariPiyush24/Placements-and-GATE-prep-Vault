@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA/Algorithms/Sorting.md",
+                "file": "DSA/Data Structures/Array.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DSA/Algorithms/Sorting.md",
+                "file": "DSA/Data Structures/Array.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSA/Algorithms/Sorting.md"
+                "file": "DSA/Data Structures/Array.md"
               }
             }
           },
@@ -181,8 +181,9 @@
       "obsidian-gallery:Gallery": false
     }
   },
-  "active": "68bf04ada235ec30",
+  "active": "41c77207807e524f",
   "lastOpenFiles": [
+    "DSA/Algorithms/Sorting.md",
     "DSA/Data Structures/Array.md",
     "Roadmap.md",
     "Core CS subjects/OS.md",
@@ -191,7 +192,6 @@
     "Assets/Screenshot 2023-01-01 at 10.54.01 PM.png",
     "Assets/Thrashing.webp",
     "Assets/SingleThreadVSMultiThread.png",
-    "Assets/RAID.webp",
-    "Assets/ProcessVSThread.png"
+    "Assets/RAID.webp"
   ]
 }
