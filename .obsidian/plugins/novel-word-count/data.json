@@ -29,15 +29,6 @@
       "createdDate": 1672481561679,
       "modifiedDate": 1672481561679
     },
-    "DSA/Questions List.md": {
-      "noteCount": 1,
-      "wordCount": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "createdDate": 1672402939400,
-      "modifiedDate": 1672429094785
-    },
     "DSA/Data Structures/Array.md": {
       "noteCount": 1,
       "wordCount": 306,
@@ -47,14 +38,23 @@
       "createdDate": 1672635627006,
       "modifiedDate": 1672677323754
     },
+    "DSA/Algorithms/Greedy.md": {
+      "noteCount": 1,
+      "wordCount": 2,
+      "pageCount": 0.006666666666666667,
+      "characterCount": 8,
+      "nonWhitespaceCharacterCount": 7,
+      "createdDate": 1672723482218,
+      "modifiedDate": 1672723493730
+    },
     "DSA/Algorithms/Sorting.md": {
       "noteCount": 1,
-      "wordCount": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
+      "wordCount": 278,
+      "pageCount": 0.9266666666666666,
+      "characterCount": 1489,
+      "nonWhitespaceCharacterCount": 1091,
       "createdDate": 1672684181183,
-      "modifiedDate": 1672684181183
+      "modifiedDate": 1672684474048
     },
     "DSA/Algorithms/Number Theory.md": {
       "noteCount": 1,

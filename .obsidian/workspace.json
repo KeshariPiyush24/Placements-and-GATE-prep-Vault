@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "958fa6e0f1ba8168",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DSA/Algorithms/Greedy.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "68bf04ada235ec30",
             "type": "leaf",
             "state": {
@@ -44,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5086555480957,
-    "collapsed": true
+    "width": 310.5086555480957
   },
   "right": {
     "id": "6e329cfb2c9ec76e",
@@ -111,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA/Data Structures/Array.md",
+                "file": "DSA/Algorithms/Greedy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DSA/Data Structures/Array.md",
+                "file": "DSA/Algorithms/Greedy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSA/Data Structures/Array.md"
+                "file": "DSA/Algorithms/Greedy.md"
               }
             }
           },
@@ -181,17 +192,17 @@
       "obsidian-gallery:Gallery": false
     }
   },
-  "active": "41c77207807e524f",
+  "active": "958fa6e0f1ba8168",
   "lastOpenFiles": [
-    "DSA/Algorithms/Sorting.md",
+    "DSA/Questions List.md",
     "DSA/Data Structures/Array.md",
+    "DSA/Algorithms/Sorting.md",
+    "DSA/Algorithms/Number Theory.md",
+    "DSA/Algorithms/Greedy.md",
     "Roadmap.md",
     "Core CS subjects/OS.md",
-    "DSA/Algorithms/Number Theory.md",
     "Assets/Screenshot 2023-01-01 at 11.59.30 PM.png",
     "Assets/Screenshot 2023-01-01 at 10.54.01 PM.png",
-    "Assets/Thrashing.webp",
-    "Assets/SingleThreadVSMultiThread.png",
-    "Assets/RAID.webp"
+    "Assets/Thrashing.webp"
   ]
 }
