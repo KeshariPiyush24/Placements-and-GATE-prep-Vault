@@ -19,3 +19,8 @@ A good question to demonstrate this -> https://leetcode.com/problems/distinct-pr
 All the prime numbers except 2 will of the form `4n - 1` or `4n + 1` (n is a natural number).
 
 Because all the prime numbers except 2 are odd and all the odd numbers can be represented in the form of `4n - 1` and `4n + 1`.
+
+
+# All integers can be represented in the form of `2x + 3y`
+
+Proof -> https://math.stackexchange.com/a/4611210/969447

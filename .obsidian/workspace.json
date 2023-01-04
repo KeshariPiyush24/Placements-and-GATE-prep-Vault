@@ -37,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/Algorithms/Greedy.md",
-                "mode": "preview",
+                "file": "DSA/Algorithms/Number Theory.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA/Algorithms/Greedy.md",
+                "file": "DSA/Algorithms/Number Theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DSA/Algorithms/Greedy.md",
+                "file": "DSA/Algorithms/Number Theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSA/Algorithms/Greedy.md"
+                "file": "DSA/Algorithms/Number Theory.md"
               }
             }
           },
@@ -194,11 +194,11 @@
   },
   "active": "958fa6e0f1ba8168",
   "lastOpenFiles": [
+    "DSA/Algorithms/Greedy.md",
     "DSA/Questions List.md",
     "DSA/Data Structures/Array.md",
     "DSA/Algorithms/Sorting.md",
     "DSA/Algorithms/Number Theory.md",
-    "DSA/Algorithms/Greedy.md",
     "Roadmap.md",
     "Core CS subjects/OS.md",
     "Assets/Screenshot 2023-01-01 at 11.59.30 PM.png",
