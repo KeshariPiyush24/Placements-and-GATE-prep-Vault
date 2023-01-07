@@ -27,7 +27,7 @@ Proof -> https://math.stackexchange.com/a/4611210/969447
 
 Certainly! Here is a nice mathematical formatted way to prove that $x_1 + y_1 < x_2 + y_2$ if $3 * (y_1 - y_2) = 2 (x_2 - x_1)$ using Markdown math syntax:
 
-Given: $3 (y_1 - y_2) = 2 (x_2 - x_1)$
+Given: $3 * (y_1 - y_2) = 2 (x_2 - x_1)$
 
 Subtract $3 * y_2$ and $2 * x_1$ from both sides: $3 * y_1 - 3 * y_2 + 3 * y_2 + 2 * x_1 - 2 * x_1 = 2 * x_2 - 2 * x_1$
 
