@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ca83103184befbdb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Roadmap.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "41c77207807e524f",
             "type": "leaf",
             "state": {
@@ -106,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5086555480957
+    "width": 200
   },
   "right": {
     "id": "6e329cfb2c9ec76e",
@@ -122,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA/Algorithms/Number Theory.md",
+                "file": "DSA/Algorithms/Sorting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DSA/Algorithms/Number Theory.md",
+                "file": "DSA/Algorithms/Sorting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSA/Algorithms/Number Theory.md"
+                "file": "DSA/Algorithms/Sorting.md"
               }
             }
           },
@@ -192,17 +180,17 @@
       "obsidian-gallery:Gallery": false
     }
   },
-  "active": "958fa6e0f1ba8168",
+  "active": "68bf04ada235ec30",
   "lastOpenFiles": [
+    "DSA/Algorithms/Number Theory.md",
+    "DSA/Algorithms/Implementation.md",
+    "DSA/Algorithms/Bit Manipulation.md",
+    "DSA/Algorithms/Sorting.md",
+    "DSA/Data Structures/Array.md",
+    "Roadmap.md",
     "DSA/Algorithms/Greedy.md",
     "DSA/Questions List.md",
-    "DSA/Data Structures/Array.md",
-    "DSA/Algorithms/Sorting.md",
-    "DSA/Algorithms/Number Theory.md",
-    "Roadmap.md",
     "Core CS subjects/OS.md",
-    "Assets/Screenshot 2023-01-01 at 11.59.30 PM.png",
-    "Assets/Screenshot 2023-01-01 at 10.54.01 PM.png",
-    "Assets/Thrashing.webp"
+    "Assets/Screenshot 2023-01-01 at 11.59.30 PM.png"
   ]
 }

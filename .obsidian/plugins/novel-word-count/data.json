@@ -10,5 +10,96 @@
     "charsPerPage": 1500,
     "pageCountType": "ByWords"
   },
-  "cachedCounts": {}
+  "cachedCounts": {
+    "Roadmap.md": {
+      "noteCount": 1,
+      "wordCount": 300,
+      "pageCount": 1,
+      "characterCount": 1206,
+      "nonWhitespaceCharacterCount": 832,
+      "createdDate": 1672428963656,
+      "modifiedDate": 1672677185764
+    },
+    "README.md": {
+      "noteCount": 1,
+      "wordCount": 23,
+      "pageCount": 0.07666666666666666,
+      "characterCount": 132,
+      "nonWhitespaceCharacterCount": 108,
+      "createdDate": 1672481561679,
+      "modifiedDate": 1672481561679
+    },
+    "DSA/Data Structures/Array.md": {
+      "noteCount": 1,
+      "wordCount": 306,
+      "pageCount": 1.02,
+      "characterCount": 2563,
+      "nonWhitespaceCharacterCount": 1687,
+      "createdDate": 1672635627006,
+      "modifiedDate": 1672677323754
+    },
+    "DSA/Algorithms/Implementation.md": {
+      "noteCount": 1,
+      "wordCount": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "createdDate": 1673119151543,
+      "modifiedDate": 1673119151543
+    },
+    "DSA/Algorithms/Bit Manipulation.md": {
+      "noteCount": 1,
+      "wordCount": 7,
+      "pageCount": 0.023333333333333334,
+      "characterCount": 145,
+      "nonWhitespaceCharacterCount": 136,
+      "createdDate": 1673118590983,
+      "modifiedDate": 1673118629602
+    },
+    "DSA/Algorithms/Number Theory.md": {
+      "noteCount": 1,
+      "wordCount": 219,
+      "pageCount": 0.73,
+      "characterCount": 1199,
+      "nonWhitespaceCharacterCount": 969,
+      "createdDate": 1672590429829,
+      "modifiedDate": 1673118722475
+    },
+    "DSA/Algorithms/Greedy.md": {
+      "noteCount": 1,
+      "wordCount": 15,
+      "pageCount": 0.05,
+      "characterCount": 208,
+      "nonWhitespaceCharacterCount": 188,
+      "createdDate": 1672723482218,
+      "modifiedDate": 1672723649105
+    },
+    "DSA/Algorithms/Sorting.md": {
+      "noteCount": 1,
+      "wordCount": 278,
+      "pageCount": 0.9266666666666666,
+      "characterCount": 1489,
+      "nonWhitespaceCharacterCount": 1091,
+      "createdDate": 1672684181183,
+      "modifiedDate": 1672684474048
+    },
+    "Core CS subjects/DBMS.md": {
+      "noteCount": 1,
+      "wordCount": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "createdDate": 1672430853098,
+      "modifiedDate": 1672430866972
+    },
+    "Core CS subjects/OS.md": {
+      "noteCount": 1,
+      "wordCount": 4978,
+      "pageCount": 16.593333333333334,
+      "characterCount": 30730,
+      "nonWhitespaceCharacterCount": 25593,
+      "createdDate": 1672420503987,
+      "modifiedDate": 1672633941653
+    }
+  }
 }
