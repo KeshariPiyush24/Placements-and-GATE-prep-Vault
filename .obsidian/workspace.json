@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/Algorithms/Sorting.md",
+                "file": "DSA/Algorithms/Greedy.md",
                 "mode": "source",
                 "source": true
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA/Algorithms/Sorting.md",
+                "file": "DSA/Algorithms/Greedy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DSA/Algorithms/Sorting.md",
+                "file": "DSA/Algorithms/Greedy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSA/Algorithms/Sorting.md"
+                "file": "DSA/Algorithms/Greedy.md"
               }
             }
           },
@@ -182,10 +182,10 @@
   },
   "active": "68bf04ada235ec30",
   "lastOpenFiles": [
+    "DSA/Algorithms/Sorting.md",
     "DSA/Algorithms/Number Theory.md",
     "DSA/Algorithms/Implementation.md",
     "DSA/Algorithms/Bit Manipulation.md",
-    "DSA/Algorithms/Sorting.md",
     "DSA/Data Structures/Array.md",
     "Roadmap.md",
     "DSA/Algorithms/Greedy.md",
