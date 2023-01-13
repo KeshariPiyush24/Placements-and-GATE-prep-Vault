@@ -42,9 +42,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "78705390b1e72431",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DSA/Algorithms/Binary Search.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA/Algorithms/Greedy.md",
+                "file": "DSA/Algorithms/Binary Search.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DSA/Algorithms/Greedy.md",
+                "file": "DSA/Algorithms/Binary Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSA/Algorithms/Greedy.md"
+                "file": "DSA/Algorithms/Binary Search.md"
               }
             }
           },
@@ -180,15 +192,15 @@
       "obsidian-gallery:Gallery": false
     }
   },
-  "active": "68bf04ada235ec30",
+  "active": "78705390b1e72431",
   "lastOpenFiles": [
+    "DSA/Algorithms/Greedy.md",
     "DSA/Algorithms/Sorting.md",
     "DSA/Algorithms/Number Theory.md",
     "DSA/Algorithms/Implementation.md",
     "DSA/Algorithms/Bit Manipulation.md",
     "DSA/Data Structures/Array.md",
     "Roadmap.md",
-    "DSA/Algorithms/Greedy.md",
     "DSA/Questions List.md",
     "Core CS subjects/OS.md",
     "Assets/Screenshot 2023-01-01 at 11.59.30 PM.png"
