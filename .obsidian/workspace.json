@@ -54,9 +54,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "631000de31242fb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DSA/Algorithms/Monotonic Stack.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -106,7 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 349.50271224975586
+    "width": 218.50390243530273
   },
   "right": {
     "id": "6e329cfb2c9ec76e",
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA/Algorithms/Binary Search.md",
+                "file": "DSA/Algorithms/Monotonic Stack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DSA/Algorithms/Binary Search.md",
+                "file": "DSA/Algorithms/Monotonic Stack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSA/Algorithms/Binary Search.md"
+                "file": "DSA/Algorithms/Monotonic Stack.md"
               }
             }
           },
@@ -192,8 +204,9 @@
       "obsidian-gallery:Gallery": false
     }
   },
-  "active": "78705390b1e72431",
+  "active": "631000de31242fb5",
   "lastOpenFiles": [
+    "DSA/Algorithms/Binary Search.md",
     "DSA/Algorithms/Greedy.md",
     "DSA/Algorithms/Sorting.md",
     "DSA/Algorithms/Number Theory.md",
@@ -202,7 +215,6 @@
     "DSA/Data Structures/Array.md",
     "Roadmap.md",
     "DSA/Questions List.md",
-    "Core CS subjects/OS.md",
-    "Assets/Screenshot 2023-01-01 at 11.59.30 PM.png"
+    "Core CS subjects/OS.md"
   ]
 }
