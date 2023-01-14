@@ -59,12 +59,8 @@
             "id": "631000de31242fb5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DSA/Algorithms/Monotonic Stack.md",
-                "mode": "preview",
-                "source": true
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -118,7 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.50390243530273
+    "width": 295.50390243530273
   },
   "right": {
     "id": "6e329cfb2c9ec76e",
@@ -134,7 +130,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA/Algorithms/Monotonic Stack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +146,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DSA/Algorithms/Monotonic Stack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,9 +167,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "DSA/Algorithms/Monotonic Stack.md"
-              }
+              "state": {}
             }
           },
           {
@@ -206,6 +198,7 @@
   },
   "active": "631000de31242fb5",
   "lastOpenFiles": [
+    "DSA/Algorithms/Monotonic Stack.md",
     "DSA/Algorithms/Binary Search.md",
     "DSA/Algorithms/Greedy.md",
     "DSA/Algorithms/Sorting.md",
@@ -214,7 +207,6 @@
     "DSA/Algorithms/Bit Manipulation.md",
     "DSA/Data Structures/Array.md",
     "Roadmap.md",
-    "DSA/Questions List.md",
-    "Core CS subjects/OS.md"
+    "DSA/Questions List.md"
   ]
 }
