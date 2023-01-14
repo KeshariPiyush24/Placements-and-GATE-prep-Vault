@@ -94,3 +94,18 @@
 	    } 
 	}
 ```
+
+## [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/solutions/3043498/java-all-three-approach-explained/)
+
+```java
+	class Solution {
+	  public int sumOddLengthSubarrays(int[] arr) {
+	    int n = arr.length;
+	    int res = 0;
+	    for (int i = 0; i < n; i++) {
+	      res += ((int) Math.ceil((i + 1) * (n - i) / 2.0)) * arr[i];
+	    }
+	    return res;
+	  }
+	}
+```

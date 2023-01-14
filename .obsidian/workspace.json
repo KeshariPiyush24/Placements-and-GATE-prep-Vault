@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/Algorithms/Monotonic Stack.md",
+                "file": "DSA/Data Structures/Array.md",
                 "mode": "preview",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA/Algorithms/Monotonic Stack.md",
+                "file": "DSA/Data Structures/Array.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DSA/Algorithms/Monotonic Stack.md",
+                "file": "DSA/Data Structures/Array.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSA/Algorithms/Monotonic Stack.md"
+                "file": "DSA/Data Structures/Array.md"
               }
             }
           },
@@ -157,13 +157,13 @@
   },
   "active": "f91da0c34814b905",
   "lastOpenFiles": [
-    "DSA/Algorithms/Binary Search.md",
-    "DSA/Algorithms/Greedy.md",
-    "DSA/Algorithms/Number Theory.md",
-    "DSA/Data Structures/Array.md",
     "DSA/Algorithms/Monotonic Stack.md",
-    "DSA/Algorithms/Sorting.md",
     "DSA/Algorithms/Implementation.md",
+    "DSA/Algorithms/Greedy.md",
+    "DSA/Algorithms/Sorting.md",
+    "DSA/Data Structures/Array.md",
+    "DSA/Algorithms/Binary Search.md",
+    "DSA/Algorithms/Number Theory.md",
     "DSA/Algorithms/Bit Manipulation.md",
     "Roadmap.md",
     "DSA/Questions List.md"
