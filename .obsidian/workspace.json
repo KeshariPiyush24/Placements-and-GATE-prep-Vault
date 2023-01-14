@@ -4,67 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "5d95de4c5b216870",
+        "id": "e4aba6702684b9d0",
         "type": "tabs",
         "children": [
           {
-            "id": "41c77207807e524f",
+            "id": "f91da0c34814b905",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/Data Structures/Array.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "958fa6e0f1ba8168",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DSA/Algorithms/Number Theory.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "68bf04ada235ec30",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DSA/Algorithms/Greedy.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "78705390b1e72431",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DSA/Algorithms/Binary Search.md",
+                "file": "DSA/Algorithms/Monotonic Stack.md",
                 "mode": "preview",
                 "source": true
               }
             }
-          },
-          {
-            "id": "631000de31242fb5",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "DSA/Algorithms/Monotonic Stack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "DSA/Algorithms/Monotonic Stack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "DSA/Algorithms/Monotonic Stack.md"
+              }
             }
           },
           {
@@ -196,16 +155,16 @@
       "obsidian-gallery:Gallery": false
     }
   },
-  "active": "631000de31242fb5",
+  "active": "f91da0c34814b905",
   "lastOpenFiles": [
-    "DSA/Algorithms/Monotonic Stack.md",
     "DSA/Algorithms/Binary Search.md",
     "DSA/Algorithms/Greedy.md",
-    "DSA/Algorithms/Sorting.md",
     "DSA/Algorithms/Number Theory.md",
+    "DSA/Data Structures/Array.md",
+    "DSA/Algorithms/Monotonic Stack.md",
+    "DSA/Algorithms/Sorting.md",
     "DSA/Algorithms/Implementation.md",
     "DSA/Algorithms/Bit Manipulation.md",
-    "DSA/Data Structures/Array.md",
     "Roadmap.md",
     "DSA/Questions List.md"
   ]
