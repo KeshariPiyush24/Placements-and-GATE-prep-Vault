@@ -18,8 +18,33 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "98a33bb999638df0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DSA/Data Structures/Disjoint set.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "a8fd3cc037d845e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DSA/Algorithms/Monotonic Stack.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA/Data Structures/Array.md",
+                "file": "DSA/Algorithms/Monotonic Stack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DSA/Data Structures/Array.md",
+                "file": "DSA/Algorithms/Monotonic Stack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSA/Data Structures/Array.md"
+                "file": "DSA/Algorithms/Monotonic Stack.md"
               }
             }
           },
@@ -155,17 +180,17 @@
       "obsidian-gallery:Gallery": false
     }
   },
-  "active": "f91da0c34814b905",
+  "active": "a8fd3cc037d845e6",
   "lastOpenFiles": [
+    "DSA/Data Structures/Disjoint set.md",
+    "DSA/Data Structures/Array.md",
     "DSA/Algorithms/Monotonic Stack.md",
     "DSA/Algorithms/Implementation.md",
     "DSA/Algorithms/Greedy.md",
     "DSA/Algorithms/Sorting.md",
-    "DSA/Data Structures/Array.md",
     "DSA/Algorithms/Binary Search.md",
     "DSA/Algorithms/Number Theory.md",
     "DSA/Algorithms/Bit Manipulation.md",
-    "Roadmap.md",
-    "DSA/Questions List.md"
+    "Roadmap.md"
   ]
 }
