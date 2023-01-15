@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "DSA/Data Structures/Disjoint set.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA/Algorithms/Monotonic Stack.md",
+                "file": "DSA/Data Structures/Disjoint set.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DSA/Algorithms/Monotonic Stack.md",
+                "file": "DSA/Data Structures/Disjoint set.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSA/Algorithms/Monotonic Stack.md"
+                "file": "DSA/Data Structures/Disjoint set.md"
               }
             }
           },
@@ -180,11 +180,11 @@
       "obsidian-gallery:Gallery": false
     }
   },
-  "active": "a8fd3cc037d845e6",
+  "active": "98a33bb999638df0",
   "lastOpenFiles": [
+    "DSA/Algorithms/Monotonic Stack.md",
     "DSA/Data Structures/Disjoint set.md",
     "DSA/Data Structures/Array.md",
-    "DSA/Algorithms/Monotonic Stack.md",
     "DSA/Algorithms/Implementation.md",
     "DSA/Algorithms/Greedy.md",
     "DSA/Algorithms/Sorting.md",
