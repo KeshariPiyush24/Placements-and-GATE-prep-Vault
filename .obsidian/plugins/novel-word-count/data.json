@@ -10,5 +10,132 @@
     "charsPerPage": 1500,
     "pageCountType": "ByWords"
   },
-  "cachedCounts": {}
+  "cachedCounts": {
+    "Roadmap.md": {
+      "noteCount": 1,
+      "wordCount": 300,
+      "pageCount": 1,
+      "characterCount": 1206,
+      "nonWhitespaceCharacterCount": 832,
+      "createdDate": 1672428963656,
+      "modifiedDate": 1672677185764
+    },
+    "README.md": {
+      "noteCount": 1,
+      "wordCount": 23,
+      "pageCount": 0.07666666666666666,
+      "characterCount": 132,
+      "nonWhitespaceCharacterCount": 108,
+      "createdDate": 1672481561679,
+      "modifiedDate": 1672481561679
+    },
+    "Core CS subjects/DBMS.md": {
+      "noteCount": 1,
+      "wordCount": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "createdDate": 1672430853098,
+      "modifiedDate": 1672430866972
+    },
+    "Core CS subjects/OS.md": {
+      "noteCount": 1,
+      "wordCount": 4978,
+      "pageCount": 16.593333333333334,
+      "characterCount": 30730,
+      "nonWhitespaceCharacterCount": 25593,
+      "createdDate": 1672420503987,
+      "modifiedDate": 1672633941653
+    },
+    "DSA/Data Structures/Stack.md": {
+      "noteCount": 1,
+      "wordCount": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "createdDate": 1673783054077,
+      "modifiedDate": 1673783054077
+    },
+    "DSA/Data Structures/Disjoint set.md": {
+      "noteCount": 1,
+      "wordCount": 308,
+      "pageCount": 1.0266666666666666,
+      "characterCount": 2387,
+      "nonWhitespaceCharacterCount": 1641,
+      "createdDate": 1673715703358,
+      "modifiedDate": 1673723093432
+    },
+    "DSA/Data Structures/Array.md": {
+      "noteCount": 1,
+      "wordCount": 360,
+      "pageCount": 1.2,
+      "characterCount": 2973,
+      "nonWhitespaceCharacterCount": 2002,
+      "createdDate": 1672635627006,
+      "modifiedDate": 1673706712012
+    },
+    "DSA/Algorithms/Sorting.md": {
+      "noteCount": 1,
+      "wordCount": 278,
+      "pageCount": 0.9266666666666666,
+      "characterCount": 1489,
+      "nonWhitespaceCharacterCount": 1091,
+      "createdDate": 1672684181183,
+      "modifiedDate": 1672684474048
+    },
+    "DSA/Algorithms/Number Theory.md": {
+      "noteCount": 1,
+      "wordCount": 219,
+      "pageCount": 0.73,
+      "characterCount": 1199,
+      "nonWhitespaceCharacterCount": 969,
+      "createdDate": 1672590429829,
+      "modifiedDate": 1673118722475
+    },
+    "DSA/Algorithms/Implementation.md": {
+      "noteCount": 1,
+      "wordCount": 65,
+      "pageCount": 0.21666666666666667,
+      "characterCount": 420,
+      "nonWhitespaceCharacterCount": 324,
+      "createdDate": 1673119151543,
+      "modifiedDate": 1673119330648
+    },
+    "DSA/Algorithms/Monotonic Stack.md": {
+      "noteCount": 1,
+      "wordCount": 319,
+      "pageCount": 1.0633333333333332,
+      "characterCount": 2232,
+      "nonWhitespaceCharacterCount": 1652,
+      "createdDate": 1673621762533,
+      "modifiedDate": 1673723130810
+    },
+    "DSA/Algorithms/Binary Search.md": {
+      "noteCount": 1,
+      "wordCount": 244,
+      "pageCount": 0.8133333333333334,
+      "characterCount": 2177,
+      "nonWhitespaceCharacterCount": 1485,
+      "createdDate": 1673327318476,
+      "modifiedDate": 1673327527026
+    },
+    "DSA/Algorithms/Greedy.md": {
+      "noteCount": 1,
+      "wordCount": 18,
+      "pageCount": 0.06,
+      "characterCount": 312,
+      "nonWhitespaceCharacterCount": 288,
+      "createdDate": 1672723482218,
+      "modifiedDate": 1673125041027
+    },
+    "DSA/Algorithms/Bit Manipulation.md": {
+      "noteCount": 1,
+      "wordCount": 7,
+      "pageCount": 0.023333333333333334,
+      "characterCount": 145,
+      "nonWhitespaceCharacterCount": 136,
+      "createdDate": 1673118590983,
+      "modifiedDate": 1673118629602
+    }
+  }
 }
