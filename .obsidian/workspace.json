@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/Data Structures/Stack.md",
+                "file": "DSA/Algorithms/Monotonic Stack.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "2104. Sum of Subarray Ranges",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +102,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -122,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA/Data Structures/Stack.md",
+                "file": "DSA/Algorithms/Monotonic Stack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DSA/Data Structures/Stack.md",
+                "file": "DSA/Algorithms/Monotonic Stack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSA/Data Structures/Stack.md"
+                "file": "DSA/Algorithms/Monotonic Stack.md"
               }
             }
           },
@@ -194,15 +195,15 @@
   },
   "active": "3015ff3920628c4e",
   "lastOpenFiles": [
+    "DSA/Data Structures/Stack.md",
+    "DSA/Algorithms/Monotonic Stack.md",
     "DSA/Data Structures/Array.md",
     "DSA/Data Structures/Disjoint set.md",
-    "DSA/Algorithms/Monotonic Stack.md",
     "DSA/Algorithms/Implementation.md",
     "DSA/Algorithms/Greedy.md",
     "DSA/Algorithms/Sorting.md",
     "DSA/Algorithms/Binary Search.md",
     "DSA/Algorithms/Number Theory.md",
-    "DSA/Algorithms/Bit Manipulation.md",
-    "Roadmap.md"
+    "DSA/Algorithms/Bit Manipulation.md"
   ]
 }
