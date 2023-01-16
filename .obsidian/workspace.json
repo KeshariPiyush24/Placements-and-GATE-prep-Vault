@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "e4aba6702684b9d0",
+        "id": "a4167b5f77a640f2",
         "type": "tabs",
         "children": [
           {
-            "id": "f91da0c34814b905",
+            "id": "f21dac13337176c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/Data Structures/Array.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "3015ff3920628c4e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DSA/Algorithms/Monotonic Stack.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "98a33bb999638df0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DSA/Data Structures/Disjoint set.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "a8fd3cc037d845e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DSA/Algorithms/Monotonic Stack.md",
+                "file": "DSA/Algorithms/Greedy.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "2104. Sum of Subarray Ranges",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -123,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA/Algorithms/Monotonic Stack.md",
+                "file": "DSA/Algorithms/Greedy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DSA/Algorithms/Monotonic Stack.md",
+                "file": "DSA/Algorithms/Greedy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSA/Algorithms/Monotonic Stack.md"
+                "file": "DSA/Algorithms/Greedy.md"
               }
             }
           },
@@ -193,12 +155,12 @@
       "obsidian-gallery:Gallery": false
     }
   },
-  "active": "3015ff3920628c4e",
+  "active": "f21dac13337176c2",
   "lastOpenFiles": [
-    "DSA/Data Structures/Stack.md",
-    "DSA/Algorithms/Monotonic Stack.md",
     "DSA/Data Structures/Array.md",
+    "DSA/Algorithms/Monotonic Stack.md",
     "DSA/Data Structures/Disjoint set.md",
+    "DSA/Data Structures/Stack.md",
     "DSA/Algorithms/Implementation.md",
     "DSA/Algorithms/Greedy.md",
     "DSA/Algorithms/Sorting.md",

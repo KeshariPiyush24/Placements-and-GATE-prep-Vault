@@ -109,3 +109,80 @@
 	  }
 	}
 ```
+
+## [2421. Number of Good Paths](https://leetcode.com/problems/number-of-good-paths/solutions/3057170/java-lengthy-but-easy-to-understand-solution-using-dsu/)
+
+```java
+class Solution {
+  int[] parents;
+
+  // find by path compression
+  private int find(int x) {
+    if (x != parents[x])
+      parents[x] = find(parents[x]);
+    return parents[x];
+  }
+
+  public int numberOfGoodPaths(int[] vals, int[][] edges) {
+    int n = vals.length;
+
+    // initialize parents array (assume in staring every node is connected only to itself)
+    parents = new int[n];
+    for (int i = 0; i < n; i++) parents[i] = i;
+
+    // create adjacency list
+    Map < Integer, Set < Integer >> graph = new HashMap < > ();
+    for (int[] edge: edges) {
+      int u = edge[0], v = edge[1];
+      graph.computeIfAbsent(u, k -> new HashSet < > ()).add(v);
+      graph.computeIfAbsent(v, k -> new HashSet < > ()).add(u);
+    }
+
+    // create an array of nodes(index) and sort them on the basis of values stored in them
+    Integer[] nodes = new Integer[n];
+    for (int i = 0; i < n; i++) {
+      nodes[i] = i;
+    }
+    Arrays.sort(nodes, Comparator.comparingInt(i -> vals[i]));
+
+    int ret = n; // variable to store result (initialized with n because every node can be start and end for a good path)
+
+    for (int i = 0; i < n;) { // increment will be done by the while loop
+      // compute for all the nodes with same value as of node[i]
+      int j = i;
+      while (j < n && vals[nodes[j]] == vals[nodes[i]]) j++;
+
+      // create connected components of nodes with same value using adjacent nodes with value less than or equals to vals[node[i]]
+      for (int k = i; k < j; k++) {
+        int x = nodes[k];
+        for (int neighbor: graph.getOrDefault(x, new HashSet < > ())) { // find neighbor of node k using adjacency list
+          if (vals[x] >= vals[neighbor]) { // if neighbor has value more than current node than it is of no use (not good path)
+            parents[find(x)] = find(neighbor); // union current node and the neighbor
+          }
+        }
+      }
+
+      /**
+          Now all the nodes of a connected components will have same parent.
+          We will traverse all the nodes in range i....j and increase the count of it's parent node by 1.
+          So after the loop terminates we will have info about which same value nodes are part of same connected component
+       */
+      Map < Integer, Integer > temp = new HashMap < > ();
+      for (int k = i; k < j; k++) {
+        int root = find(nodes[k]);
+        temp.put(root, temp.getOrDefault(root, 0) + 1);
+      }
+
+      // calculate number of good paths using temp
+      for (int v: temp.values()) {
+        ret += v * (v - 1) / 2; // every node can be start and all the remaining node can be end of the good path
+      }
+
+      // start from the node with different value than current nodes
+      i = j;
+    }
+
+    return ret;
+  }
+}
+```
